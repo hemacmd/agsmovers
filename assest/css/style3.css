@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{text-decoration:none;} 
+.fw-6{font-weight: 600;}
+
+.text-justify{
+    text-align: justify;
+}
+
+header .tophead{
+    height: 28px;
+    background-color: #34313a;
+}
+header .tophead .leftgroup ul li a{
+     margin: 0px 11px;
+     padding: 2px;
+    font-size: 13px;
+    color:#fff;
+    float:left;
+}
+header .tophead ul li a:hover{
+    text-decoration: underline;
+}
+header .tophead .leftgroup ul li a .active{
+    width: auto;
+    height:auto;
+    color:red;
+    font-weight: 700px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    display:inline-block;
+}
+header .tophead ul li a.active:hover{
+    text-decoration: none;
+}
+header .tophead .leftgroup ul li a.active::before{
+    content:"";
+    top:0px;
+    width:0px;
+    height:0px;
+    right: 100%;
+    position: absolute;
+    border-right: 15px solid#fff;
+    
+ 
+}
+header .tophead .leftgroup ul li a.active::after{
+    content:"";
+    top:0px;
+    width:0px;
+    height:0px;
+    right: 100%;
+    position: absolute;
+    border-top:28px solid #fff;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid transparent;
+
+} 
+header .tophead .rightgroup ul li a{
+     margin: 0px 13px;
+     padding: 2px;
+    float: right;
+    font-size: 13px;
+    color:#fff;
+    text-decoration: none;
+}
+header .tophead .rightgroup ul li select{
+    background-color: #34313a;
+    border: none;
+    color:#fff;
+    font-size: 13px;
+}
+/* .nav .navbar-nav .nav-link{
+visibility: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    border-top: 1px solid #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    z-index: 101;
+} */
+.rightgroup  ul li ul li a{
+    padding: 5px;
+    line-height: 1;
+}
+.rightgroup  ul li ul li{
+    margin-left: -15px;
+}
+.rightgroup ul li{
+    display: block;
+}
+.rightgroup ul li ul{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin: 5px;
+    background-color: #34313a;
+    color:#fff;
+    padding: 7px 5px;
+    width: 10%;
+}
+    
+    /* header end */
+ .native .native-2{
+ position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding-left: 0;
+ }
+header .tophead .rightgroup
+{
+  float: right;
+  margin: 1px -2% 0 0;
+}
+.rightgroup ul li
+{
+  display: block;
+}
+.rightgroup ul li ul
+{
+  display: none;
+  position: absolute;
+  z-index: 9;
+  margin: 2px;
+  background-color: #34313a;
+  color: #fff;
+  padding: 7px 5px;
+  width: 10%;
+}
+.rightgroup ul li:hover ul
+{
+  display: block;
+}
+ /* news box section start */
+ .box{
+    min-height: 200px;
+    margin-top: -50px;
+    z-index: 9;
+    background-color:#fff;
+   }
+ .box p{
+    color:#b00000;
+ }
+/* news box section end */
+/* card section start */
+.card a{
+    color:#b00000;  
+}
+.card a:hover{
+    color:gray;
+}
+/* card section end */
+
+
+ /* footer section start */
+ #footer .footer-logo {
+    margin: 0 0 20px ;
+    max-width: 100%;
+}
+#footer a{
+    color: #878191;
+}
+ #footer a:hover{
+    color:#fff;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 3px;
+} 
+#footer ul li a img{
+    color: #fff;
+}
+footer{
+    background-color:#333;
+    color: #878191;
+}
+ footer ul li.buton{
+    border-radius: 80%;
+}
+/* footer section end */
+
+/* contact section start  (general enquires) (satisfaction)*/
+.picture{
+    min-height: 200px;
+    margin-top: -50px;
+    z-index: 9;
+}
+.picture h1,h2
+{
+    color:#b00000;
+}
+/* contact section end */
